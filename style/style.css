@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Italiana&family=Montserrat:wght@300;400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  color: #C1B081;
+  font-family: "Italiana", sans-serif;
+  font-size: 100px;
+  font-weight: 400;
+  line-height: 100px;
+  letter-spacing: 0px;
+  text-align: left;
+  text-transform: capitalize;
+}
+
+header {
+  height: 100vh;
+  background-image: url("../img/BG.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+nav {
+  margin: 0 auto;
+  max-width: 1500px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 35px;
+}
+
+.main-scr-content {
+  position: relative;
+  max-width: 1500px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 75px;
+}
+
+.main-scr-content__element-left, .main-scr-content__element-right {
+  position: absolute;
+}
+
+.main-scr-content__element-left {
+  left: 0;
+  width: 35vw;
+}
+
+.main-scr-content__element-right {
+  right: -62px;
+}
+
+.main-scr-content__element-right-img2 {
+  width: 124px;
+}
+
+.header__bottom-buttons {
+  margin: 0 auto;
+  max-width: 1500px;
+  align-items: center;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 35px;
+}/*# sourceMappingURL=style.css.map */
