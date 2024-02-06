@@ -25,6 +25,12 @@ nav {
   justify-content: center;
   margin-top: 75px;
 }
+.main-scr-content__element-center {
+    height: 69vh;
+    img {
+        height: 100%;
+    }
+}
 // .main-scr-content__element {
 //     width: 30%;
 // }
@@ -56,4 +62,15 @@ position: absolute;
 }
 .about-us__body {
     padding: 120px 0;
+}
+.about-us__medals {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    margin-top: 70px;
+}
+.medals__circle {
+    background: url(golden-glitter-orange-yellow-surface-with-blinking-white-irregular-spots);
+
 }

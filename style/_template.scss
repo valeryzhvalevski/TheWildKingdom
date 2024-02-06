@@ -20,3 +20,20 @@ h1 {
     max-width: 1500px;
     margin: 0 auto;
 }
+.block-content {
+    display: flex;
+    gap: 120px;
+}
+.block-img {
+    border: 1px solid $main-gold;
+    img {
+        padding: 14px;
+    }
+}
+.block-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;   
+}

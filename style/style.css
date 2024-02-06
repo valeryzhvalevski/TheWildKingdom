@@ -21,6 +21,26 @@ h1 {
   margin: 0 auto;
 }
 
+.block-content {
+  display: flex;
+  gap: 120px;
+}
+
+.block-img {
+  border: 1px solid #C1B081;
+}
+.block-img img {
+  padding: 14px;
+}
+
+.block-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+}
+
 header {
   height: 100vh;
   background-image: url("../img/BG.png");
@@ -46,6 +66,13 @@ nav {
   align-items: center;
   justify-content: center;
   margin-top: 75px;
+}
+
+.main-scr-content__element-center {
+  height: 69vh;
+}
+.main-scr-content__element-center img {
+  height: 100%;
 }
 
 .main-scr-content__element-left, .main-scr-content__element-right {
@@ -80,4 +107,16 @@ nav {
 
 .about-us__body {
   padding: 120px 0;
+}
+
+.about-us__medals {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 200px;
+  margin-top: 70px;
+}
+
+.medals__circle {
+  background: url(golden-glitter-orange-yellow-surface-with-blinking-white-irregular-spots);
 }/*# sourceMappingURL=style.css.map */
