@@ -16,6 +16,11 @@ h1 {
   text-transform: capitalize;
 }
 
+.wrapper {
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
 header {
   height: 100vh;
   background-image: url("../img/BG.png");
@@ -67,4 +72,12 @@ nav {
   display: flex;
   justify-content: flex-end;
   margin-top: 35px;
+}
+
+.about-us {
+  background-image: url("../img/Asset3.png");
+}
+
+.about-us__body {
+  padding: 120px 0;
 }/*# sourceMappingURL=style.css.map */
